@@ -1,6 +1,6 @@
 'use strict'
 const Dashboard=()=>{
-  const dashboard= $('<div class="dasboard">Dashboard Component</div>');
+  const dashboard= $('<div class="dashboard">Dashboard Component</div>');
   if(state.user){
     const name=$('<h1>'+state.user.name+'</h1>');
     const email=$('<p>'+state.user.email+'</p>');
